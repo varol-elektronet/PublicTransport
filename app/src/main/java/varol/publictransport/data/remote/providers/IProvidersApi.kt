@@ -11,7 +11,7 @@ import varol.publictransport.data.model.ProvidersAttributes
 
 interface IProvidersApi {
 
-  @GET
+  @GET("door2door-io/transit-app-task/master/data.json")
   fun fetchProvidersAttributes(): Deferred<ProvidersAttributes>
 
 }
