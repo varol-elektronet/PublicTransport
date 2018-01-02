@@ -1,9 +1,7 @@
 package varol.publictransport.data.remote.routes
 
 import kotlinx.coroutines.experimental.Deferred
-import retrofit2.Call
 import retrofit2.Retrofit
-import varol.publictransport.data.model.Route
 import varol.publictransport.data.model.Routes
 import javax.inject.Inject
 
