@@ -126,7 +126,7 @@
 
 
       <RelativeLayout
-          android:id="@+id/relativeLayout"
+          android:id="@+id/rl_searchBar_MainAct"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:layout_margin="@dimen/marginBig"
@@ -145,6 +145,8 @@
             android:layout_centerInParent="true"
             android:text="@string/where_do_you_wanna_go"
             android:padding="@dimen/marginSmall"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
             android:background="@drawable/bg_where_to_go_button"
             />
       </RelativeLayout>

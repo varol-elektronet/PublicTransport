@@ -30,4 +30,6 @@
   <dimen name="bsLayoutHeight">250dp</dimen>
   <dimen name="bsPeakHeight">60dp</dimen>
 
+  <dimen name="radiusSearchButton">7dp</dimen>
+
 </resources>

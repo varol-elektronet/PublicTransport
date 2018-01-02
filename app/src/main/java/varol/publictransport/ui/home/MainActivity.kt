@@ -45,6 +45,7 @@ import kotlinx.android.synthetic.main.activity_main.iv_dragBottomSheet_ActMain
 import kotlinx.android.synthetic.main.activity_main.iv_locationIcon_MainAct
 import kotlinx.android.synthetic.main.activity_main.iv_settings_MainAct
 import kotlinx.android.synthetic.main.activity_main.rl_bottomSheet_ActMain
+import kotlinx.android.synthetic.main.activity_main.rl_searchBar_MainAct
 import kotlinx.android.synthetic.main.activity_main.rv_travelModes_MainAct
 import kotlinx.coroutines.experimental.android.UI
 import kotlinx.coroutines.experimental.launch
@@ -128,6 +129,10 @@ class MainActivity : BaseActivity(), OnMapReadyCallback, MainActivityContract.Ba
       showToast(resources.getString(R.string.will_be_available_soon))
     }
 
+    rl_searchBar_MainAct.setOnClickListener {
+      showToast(resources.getString(R.string.will_be_available_soon))
+    }
+    
     //region BottomSheet
     val bottomSheetBehavior = BottomSheetBehavior.from(rl_bottomSheet_ActMain)
 
